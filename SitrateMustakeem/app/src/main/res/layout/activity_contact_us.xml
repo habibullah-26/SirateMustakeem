@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="duwaItem"
+            type="com.habib.siratemustakeem.models.Duwa" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/toplayout"
+                layout="@layout/top_bar_layout" />
+
+            <TextView
+                android:id="@+id/tvTitleEnglish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:gravity="center"
+                android:text="Message"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18ssp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toplayout" />
+
+            <TextView
+                android:id="@+id/tvContactUsmesage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:text="@string/contact_us_mesage"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp"
+                android:lineSpacingExtra="@dimen/_4sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvTitleEnglish" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:text="Email:  engineer.habib26@gmail.com"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp"
+                android:justificationMode="inter_word"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvContactUsmesage" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvEmail"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>
