@@ -30,4 +30,8 @@ class Duwa : Serializable {
     //    @SerializedName("english_trn")
     //    @Expose
     var englishTrn: String? = null
+
+    //    @SerializedName("reference_no")
+    //    @Expose
+    var referenceNo: String? = null
 }

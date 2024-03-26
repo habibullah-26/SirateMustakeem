@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.habib.siratemustakeem">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:name=".MyApplication"
@@ -23,6 +22,8 @@
         <activity android:name=".ui.KalmaActivity" />
         <activity android:name=".ui.MainActivity" />
         <activity android:name=".ui.DuwaDetail" />
+        <activity android:name=".ui.RabnaActivity" />
+        <activity android:name=".ui.RabnaDetail" />
         <activity android:name=".ui.ContactUsActivity" />
     </application>
 
