@@ -57,6 +57,7 @@
                 android:layout_marginTop="@dimen/_40sdp"
                 android:text="Email:  engineer.habib26@gmail.com"
                 android:textColor="@color/black"
+                android:autoLink="email"
                 android:textSize="@dimen/_14ssp"
                 android:justificationMode="inter_word"
                 app:layout_constraintEnd_toEndOf="parent"

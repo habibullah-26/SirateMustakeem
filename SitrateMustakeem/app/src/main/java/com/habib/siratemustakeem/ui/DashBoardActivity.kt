@@ -12,6 +12,10 @@ import com.habib.siratemustakeem.R
 import com.habib.siratemustakeem.databinding.ActivityDashboardBinding
 import com.habib.siratemustakeem.models.Duwa
 import com.habib.siratemustakeem.utils.Util
+//import java.text.SimpleDateFormat
+//import java.util.Calendar
+//import java.util.Date
+//import java.util.Locale
 
 class DashBoardActivity : AppCompatActivity() {
     var binding: ActivityDashboardBinding? = null
@@ -20,6 +24,10 @@ class DashBoardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_dashboard)
+//        val currentTime: Date = Calendar.getInstance().getTime()
+//        val sdf: SimpleDateFormat = SimpleDateFormat("HH:mm:ss", Locale.getDefault())
+//        val currentDateandTime: String = sdf.format(Date())
+//        binding?.tvDateTime?.text = currentDateandTime;
         binding?.cardView1?.setOnClickListener{
             val mainIntent = Intent(this, MainActivity::class.java)
             mainIntent.putExtra("title",getString(R.string.title_duwain))

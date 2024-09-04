@@ -29,8 +29,10 @@ class RabnaViewAdapter internal constructor(context: Context?, data: ArrayList<D
     // binds the data to the TextView in each row
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val duwa = mData[position]
-        holder.tvEnglish.text = duwa.titleEnglish?.trim().toString()
-        holder.tvUrdu.text = duwa.titleUrdu?.trim().toString()
+        holder.tvCounter.text = (position +1).toString()
+//        holder.tvEnglish.text = duwa.titleEnglish?.trim().toString()
+        holder.tvUrdu.text = duwa.arabicTrn?.trim().toString()
+        holder.tvReference.text = duwa.referenceNo?.trim().toString()
     }
 
     // total number of rows
@@ -41,15 +43,19 @@ class RabnaViewAdapter internal constructor(context: Context?, data: ArrayList<D
     // stores and recycles views as they are scrolled off screen
     inner class ViewHolder internal constructor(itemView: View) : RecyclerView.ViewHolder(itemView),
         View.OnClickListener {
-        var tvEnglish: TextView
+        //var tvEnglish: TextView
         var tvUrdu: TextView
+        var tvCounter:TextView
+        var tvReference:TextView
         override fun onClick(view: View) {
             if (mClickListener != null) mClickListener!!.onItemClick(view, adapterPosition)
         }
 
         init {
-            tvEnglish = itemView.findViewById(R.id.tvEnglish)
+            //tvEnglish = itemView.findViewById(R.id.tvEnglish)
             tvUrdu = itemView.findViewById(R.id.tvUrdu)
+            tvCounter = itemView.findViewById((R.id.tvCounter))
+            tvReference = itemView.findViewById((R.id.tvReference))
             itemView.setOnClickListener(this)
         }
     }
