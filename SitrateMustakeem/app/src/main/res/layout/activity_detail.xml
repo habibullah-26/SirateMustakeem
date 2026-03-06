@@ -19,7 +19,8 @@
 
             <include
                 android:id="@+id/toplayout"
-                layout="@layout/top_bar_layout" />
+                layout="@layout/top_bar_layout"
+                app:statusBarPadding="@{true}"/>
 
             <TextView
                 android:id="@+id/tvTitleEnglish"
