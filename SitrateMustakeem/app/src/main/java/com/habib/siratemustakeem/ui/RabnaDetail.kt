@@ -4,7 +4,6 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.habib.siratemustakeem.R
-import com.habib.siratemustakeem.databinding.ActivityDetailBinding
 import com.habib.siratemustakeem.databinding.ActivityRabnaDetailBinding
 import com.habib.siratemustakeem.models.Duwa
 

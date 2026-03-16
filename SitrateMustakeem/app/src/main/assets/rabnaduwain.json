@@ -1,0 +1,362 @@
+[
+  {
+    "sr": 1,
+    "title_eng": "Rabbana taqabbal",
+    "title_urdu": "رَبَّنَا تَقَبَّلْ مِنَّا",
+    "arabic_trn": "رَبَّنَا تَقَبَّلْ مِنَّا إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ",
+    "urdu_trn": "اے ہمارے رب ہماری دعا قبول فرما، بے شک تو سننے والا جاننے والا ہے۔",
+    "english_trn": "Our Lord, accept [this] from us. Indeed You are the Hearing, the Knowing.",
+    "reference": "Al-Baqarah 2:127"
+  },
+  {
+    "sr": 2,
+    "title_eng": "Rabbana waijAAalna",
+    "title_urdu": "رَبَّنَا وَاجْعَلْنَا",
+    "arabic_trn": "رَبَّنَا وَاجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِنْ ذُرِّيَّتِنَا أُمَّةً مُّسْلِمَةً لَّكَ",
+    "urdu_trn": "اے ہمارے رب ہمیں اپنا فرمانبردار بنا اور ہماری اولاد میں سے بھی ایک فرمانبردار امت بنا۔",
+    "english_trn": "Our Lord, make us Muslims in submission to You and from our descendants a Muslim nation in submission to You.",
+    "reference": "Al-Baqarah 2:128"
+  },
+  {
+    "sr": 3,
+    "title_eng": "Rabbana aatina fiddunya",
+    "title_urdu": "رَبَّنَا آتِنَا فِي الدُّنْيَا",
+    "arabic_trn": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+    "urdu_trn": "اے ہمارے رب ہمیں دنیا میں بھلائی دے اور آخرت میں بھی بھلائی دے اور ہمیں آگ کے عذاب سے بچا۔",
+    "english_trn": "Our Lord, give us in this world good and in the Hereafter good and protect us from the punishment of the Fire.",
+    "reference": "Al-Baqarah 2:201"
+  },
+  {
+    "sr": 4,
+    "title_eng": "Rabbana afrigh alainaa",
+    "title_urdu": "رَبَّنَا أَفْرِغْ عَلَيْنَا",
+    "arabic_trn": "رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا",
+    "urdu_trn": "اے ہمارے رب ہم پر صبر نازل فرما اور ہمارے قدم جما دے۔",
+    "english_trn": "Our Lord, pour upon us patience and plant firmly our feet.",
+    "reference": "Al-Baqarah 2:250"
+  },
+  {
+    "sr": 5,
+    "title_eng": "Rabbana la tuakhizna",
+    "title_urdu": "رَبَّنَا لَا تُؤَاخِذْنَا",
+    "arabic_trn": "رَبَّنَا لَا تُؤَاخِذْنَا إِنْ نَّسِينَا أَوْ أَخْطَأْنَا",
+    "urdu_trn": "اے ہمارے رب اگر ہم بھول جائیں یا غلطی کریں تو ہمیں نہ پکڑ۔",
+    "english_trn": "Our Lord, do not impose blame upon us if we forget or make a mistake.",
+    "reference": "Al-Baqarah 2:286"
+  },
+  {
+    "sr": 6,
+    "title_eng": "Rabbana wala tahmil",
+    "title_urdu": "رَبَّنَا وَلَا تَحْمِلْ",
+    "arabic_trn": "رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَا إِصْرًا",
+    "urdu_trn": "اے ہمارے رب ہم پر ایسا بوجھ نہ ڈال جیسا تو نے ہم سے پہلے لوگوں پر ڈالا تھا۔",
+    "english_trn": "Our Lord, and lay not upon us a burden like that which You laid upon those before us.",
+    "reference": "Al-Baqarah 2:286"
+  },
+  {
+    "sr": 7,
+    "title_eng": "Rabbana wala tuhammilna",
+    "title_urdu": "رَبَّنَا وَلَا تُحَمِّلْنَا",
+    "arabic_trn": "رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِ",
+    "urdu_trn": "اے ہمارے رب ہم پر وہ بوجھ نہ ڈال جس کی ہمیں طاقت نہ ہو۔",
+    "english_trn": "Our Lord, do not burden us with what we have no ability to bear.",
+    "reference": "Al-Baqarah 2:286"
+  },
+  {
+    "sr": 8,
+    "title_eng": "Rabbana waghfir lana",
+    "title_urdu": "رَبَّنَا وَاغْفِرْ لَنَا",
+    "arabic_trn": "وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَا",
+    "urdu_trn": "اور ہمیں معاف فرما، ہمیں بخش دے اور ہم پر رحم فرما۔",
+    "english_trn": "Pardon us, forgive us, and have mercy upon us.",
+    "reference": "Al-Baqarah 2:286"
+  },
+  {
+    "sr": 9,
+    "title_eng": "Rabbana la tuzigh quloobana",
+    "title_urdu": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا",
+    "arabic_trn": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا",
+    "urdu_trn": "اے ہمارے رب ہمارے دلوں کو ٹیڑھا نہ کر بعد اس کے کہ تو نے ہمیں ہدایت دی۔",
+    "english_trn": "Our Lord, let not our hearts deviate after You have guided us.",
+    "reference": "Aal-Imran 3:8"
+  },
+  {
+    "sr": 10,
+    "title_eng": "Rabbana innaka jamiun",
+    "title_urdu": "رَبَّنَا إِنَّكَ جَامِعُ",
+    "arabic_trn": "رَبَّنَا إِنَّكَ جَامِعُ النَّاسِ لِيَوْمٍ لَا رَيْبَ فِيهِ",
+    "urdu_trn": "اے ہمارے رب بے شک تو لوگوں کو اس دن جمع کرنے والا ہے جس میں کوئی شک نہیں۔",
+    "english_trn": "Our Lord, surely You will gather the people for a Day about which there is no doubt.",
+    "reference": "Aal-Imran 3:9"
+  },
+    {
+      "sr": 11,
+      "title_eng": "Rabbana innana amanna",
+      "title_urdu": "رَبَّنَا إِنَّنَا آمَنَّا",
+      "arabic_trn": "رَبَّنَا إِنَّنَا آمَنَّا فَاغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ النَّارِ",
+      "urdu_trn": "اے ہمارے رب ہم ایمان لائے ہیں، پس ہمارے گناہ معاف فرما اور ہمیں آگ کے عذاب سے بچا۔",
+      "english_trn": "Our Lord, indeed we have believed, so forgive us our sins and protect us from the punishment of the Fire.",
+      "reference": "Aal-Imran 3:16"
+    },
+    {
+      "sr": 12,
+      "title_eng": "Rabbana amanna bima anzalta",
+      "title_urdu": "رَبَّنَا آمَنَّا بِمَا أَنْزَلْتَ",
+      "arabic_trn": "رَبَّنَا آمَنَّا بِمَا أَنْزَلْتَ وَاتَّبَعْنَا الرَّسُولَ فَاكْتُبْنَا مَعَ الشَّاهِدِينَ",
+      "urdu_trn": "اے ہمارے رب ہم اس پر ایمان لائے جو تو نے نازل کیا اور ہم نے رسول کی پیروی کی، پس ہمیں گواہی دینے والوں میں لکھ لے۔",
+      "english_trn": "Our Lord, we have believed in what You revealed and followed the Messenger, so register us among the witnesses.",
+      "reference": "Aal-Imran 3:53"
+    },
+    {
+      "sr": 13,
+      "title_eng": "Rabbana ighfir lana",
+      "title_urdu": "رَبَّنَا اغْفِرْ لَنَا",
+      "arabic_trn": "رَبَّنَا اغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِي أَمْرِنَا",
+      "urdu_trn": "اے ہمارے رب ہمارے گناہ اور ہمارے معاملات میں ہماری زیادتی معاف فرما۔",
+      "english_trn": "Our Lord, forgive us our sins and the excesses in our affairs.",
+      "reference": "Aal-Imran 3:147"
+    },
+    {
+      "sr": 14,
+      "title_eng": "Rabbana ma khalaqta haza",
+      "title_urdu": "رَبَّنَا مَا خَلَقْتَ هَذَا بَاطِلًا",
+      "arabic_trn": "رَبَّنَا مَا خَلَقْتَ هَذَا بَاطِلًا سُبْحَانَكَ فَقِنَا عَذَابَ النَّارِ",
+      "urdu_trn": "اے ہمارے رب تو نے یہ سب کچھ بے مقصد نہیں بنایا، تو پاک ہے پس ہمیں آگ کے عذاب سے بچا۔",
+      "english_trn": "Our Lord, You did not create this aimlessly; exalted are You, so protect us from the punishment of the Fire.",
+      "reference": "Aal-Imran 3:191"
+    },
+    {
+      "sr": 15,
+      "title_eng": "Rabbana innaka man tudkhil",
+      "title_urdu": "رَبَّنَا إِنَّكَ مَنْ تُدْخِلِ",
+      "arabic_trn": "رَبَّنَا إِنَّكَ مَنْ تُدْخِلِ النَّارَ فَقَدْ أَخْزَيْتَهُ",
+      "urdu_trn": "اے ہمارے رب جسے تو آگ میں داخل کرے یقیناً تو نے اسے رسوا کر دیا۔",
+      "english_trn": "Our Lord, indeed whoever You admit to the Fire – You have disgraced him.",
+      "reference": "Aal-Imran 3:192"
+    },
+    {
+      "sr": 16,
+      "title_eng": "Rabbana innanā sami'na",
+      "title_urdu": "رَبَّنَا إِنَّنَا سَمِعْنَا",
+      "arabic_trn": "رَبَّنَا إِنَّنَا سَمِعْنَا مُنَادِيًا يُنَادِي لِلْإِيمَانِ",
+      "urdu_trn": "اے ہمارے رب ہم نے ایک پکارنے والے کو سنا جو ایمان کی طرف بلا رہا تھا۔",
+      "english_trn": "Our Lord, indeed we have heard a caller calling to faith.",
+      "reference": "Aal-Imran 3:193"
+    },
+    {
+      "sr": 17,
+      "title_eng": "Rabbana faghfir lana",
+      "title_urdu": "رَبَّنَا فَاغْفِرْ لَنَا",
+      "arabic_trn": "رَبَّنَا فَاغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّئَاتِنَا",
+      "urdu_trn": "اے ہمارے رب ہمارے گناہ معاف فرما اور ہماری برائیاں ہم سے دور کر دے۔",
+      "english_trn": "Our Lord, forgive us our sins and remove from us our misdeeds.",
+      "reference": "Aal-Imran 3:193"
+    },
+    {
+      "sr": 18,
+      "title_eng": "Rabbana wa atina",
+      "title_urdu": "رَبَّنَا وَآتِنَا",
+      "arabic_trn": "رَبَّنَا وَآتِنَا مَا وَعَدْتَنَا عَلَى رُسُلِكَ",
+      "urdu_trn": "اے ہمارے رب ہمیں وہ عطا فرما جس کا وعدہ تو نے اپنے رسولوں کے ذریعے کیا۔",
+      "english_trn": "Our Lord, grant us what You promised us through Your messengers.",
+      "reference": "Aal-Imran 3:194"
+    },
+    {
+      "sr": 19,
+      "title_eng": "Rabbana la nukallifu",
+      "title_urdu": "رَبَّنَا لَا نُكَلِّفُ",
+      "arabic_trn": "رَبَّنَا لَا تُكَلِّفْنَا مَا لَا طَاقَةَ لَنَا بِهِ",
+      "urdu_trn": "اے ہمارے رب ہم پر ایسا بوجھ نہ ڈال جس کی ہمیں طاقت نہ ہو۔",
+      "english_trn": "Our Lord, do not burden us with what we cannot bear.",
+      "reference": "Al-Baqarah 2:286"
+    },
+    {
+      "sr": 20,
+      "title_eng": "Rabbana aatina min ladunka",
+      "title_urdu": "رَبَّنَا آتِنَا مِن لَّدُنكَ",
+      "arabic_trn": "رَبَّنَا آتِنَا مِن لَّدُنكَ رَحْمَةً",
+      "urdu_trn": "اے ہمارے رب ہمیں اپنی طرف سے رحمت عطا فرما۔",
+      "english_trn": "Our Lord, grant us mercy from Yourself.",
+      "reference": "Al-Kahf 18:10"
+    },
+    {
+      "sr": 21,
+      "title_eng": "Rabbana la taj'alna fitnatan",
+      "title_urdu": "رَبَّنَا لَا تَجْعَلْنَا فِتْنَةً",
+      "arabic_trn": "رَبَّنَا لَا تَجْعَلْنَا فِتْنَةً لِّلْقَوْمِ الظَّالِمِينَ",
+      "urdu_trn": "اے ہمارے رب ہمیں ظالم لوگوں کے لئے آزمائش نہ بنا۔",
+      "english_trn": "Our Lord, do not make us a trial for the wrongdoing people.",
+      "reference": "Yunus 10:85"
+    },
+    {
+      "sr": 22,
+      "title_eng": "Rabbana ighfir li",
+      "title_urdu": "رَبَّنَا اغْفِرْ لِي",
+      "arabic_trn": "رَبِّ اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ",
+      "urdu_trn": "اے میرے رب مجھے بخش دے اور میرے والدین کو اور تمام مومنوں کو۔",
+      "english_trn": "My Lord, forgive me and my parents and the believers.",
+      "reference": "Ibrahim 14:41"
+    },
+    {
+      "sr": 23,
+      "title_eng": "Rabbana hablana",
+      "title_urdu": "رَبَّنَا هَبْ لَنَا",
+      "arabic_trn": "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ",
+      "urdu_trn": "اے ہمارے رب ہمیں ہماری بیویوں اور اولاد سے آنکھوں کی ٹھنڈک عطا فرما۔",
+      "english_trn": "Our Lord, grant us from our spouses and offspring comfort to our eyes.",
+      "reference": "Al-Furqan 25:74"
+    },
+    {
+      "sr": 24,
+      "title_eng": "Rabbana la tuzigh",
+      "title_urdu": "رَبَّنَا لَا تُزِغْ",
+      "arabic_trn": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا",
+      "urdu_trn": "اے ہمارے رب ہمارے دلوں کو ہدایت کے بعد ٹیڑھا نہ کر۔",
+      "english_trn": "Our Lord, let not our hearts deviate after You have guided us.",
+      "reference": "Aal-Imran 3:8"
+    },
+    {
+      "sr": 25,
+      "title_eng": "Rabbana atmam lana nurana",
+      "title_urdu": "رَبَّنَا أَتْمِمْ لَنَا نُورَنَا",
+      "arabic_trn": "رَبَّنَا أَتْمِمْ لَنَا نُورَنَا وَاغْفِرْ لَنَا",
+      "urdu_trn": "اے ہمارے رب ہمارے لئے ہمارا نور مکمل فرما اور ہمیں بخش دے۔",
+      "english_trn": "Our Lord, perfect for us our light and forgive us.",
+      "reference": "At-Tahrim 66:8"
+    },
+    {
+      "sr": 26,
+      "title_eng": "Rabbana la taj'alna",
+      "title_urdu": "رَبَّنَا لَا تَجْعَلْنَا",
+      "arabic_trn": "رَبَّنَا لَا تَجْعَلْنَا مَعَ الْقَوْمِ الظَّالِمِينَ",
+      "urdu_trn": "اے ہمارے رب ہمیں ظالم قوم کے ساتھ نہ ملا۔",
+      "english_trn": "Our Lord, do not place us with the wrongdoing people.",
+      "reference": "Al-Araf 7:47"
+    },
+    {
+      "sr": 27,
+      "title_eng": "Rabbana aftah baynana",
+      "title_urdu": "رَبَّنَا افْتَحْ بَيْنَنَا",
+      "arabic_trn": "رَبَّنَا افْتَحْ بَيْنَنَا وَبَيْنَ قَوْمِنَا بِالْحَقِّ",
+      "urdu_trn": "اے ہمارے رب ہمارے اور ہماری قوم کے درمیان حق کے ساتھ فیصلہ فرما۔",
+      "english_trn": "Our Lord, decide between us and our people in truth.",
+      "reference": "Al-Araf 7:89"
+    },
+    {
+      "sr": 28,
+      "title_eng": "Rabbana afrigh alayna sabran",
+      "title_urdu": "رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا",
+      "arabic_trn": "رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا وَتَوَفَّنَا مُسْلِمِينَ",
+      "urdu_trn": "اے ہمارے رب ہم پر صبر نازل فرما اور ہمیں مسلمان ہونے کی حالت میں وفات دے۔",
+      "english_trn": "Our Lord, pour upon us patience and let us die as Muslims.",
+      "reference": "Al-Araf 7:126"
+    },
+    {
+      "sr": 29,
+      "title_eng": "Rabbana la tuakhizna",
+      "title_urdu": "رَبَّنَا لَا تُؤَاخِذْنَا",
+      "arabic_trn": "رَبَّنَا لَا تُؤَاخِذْنَا إِنْ نَّسِينَا أَوْ أَخْطَأْنَا",
+      "urdu_trn": "اے ہمارے رب اگر ہم بھول جائیں یا غلطی کریں تو ہمیں نہ پکڑ۔",
+      "english_trn": "Our Lord, do not impose blame upon us if we forget or make a mistake.",
+      "reference": "Al-Baqarah 2:286"
+    },
+    {
+      "sr": 30,
+      "title_eng": "Rabbana wala tahmil",
+      "title_urdu": "رَبَّنَا وَلَا تَحْمِلْ",
+      "arabic_trn": "رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَا إِصْرًا",
+      "urdu_trn": "اے ہمارے رب ہم پر ایسا بوجھ نہ ڈال جیسا تو نے ہم سے پہلے لوگوں پر ڈالا تھا۔",
+      "english_trn": "Our Lord, lay not upon us a burden like that which You laid upon those before us.",
+      "reference": "Al-Baqarah 2:286"
+    },
+    {
+      "sr": 31,
+      "title_eng": "Rabbana wala tuhammilna",
+      "title_urdu": "رَبَّنَا وَلَا تُحَمِّلْنَا",
+      "arabic_trn": "رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِ",
+      "urdu_trn": "اے ہمارے رب ہم پر وہ بوجھ نہ ڈال جس کی ہمیں طاقت نہ ہو۔",
+      "english_trn": "Our Lord, do not burden us with what we cannot bear.",
+      "reference": "Al-Baqarah 2:286"
+    },
+    {
+      "sr": 32,
+      "title_eng": "Rabbana wa'fu anna",
+      "title_urdu": "رَبَّنَا وَاعْفُ عَنَّا",
+      "arabic_trn": "وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَا",
+      "urdu_trn": "ہمیں معاف فرما، ہمیں بخش دے اور ہم پر رحم فرما۔",
+      "english_trn": "Pardon us, forgive us, and have mercy upon us.",
+      "reference": "Al-Baqarah 2:286"
+    },
+    {
+      "sr": 33,
+      "title_eng": "Rabbana anta mawlana",
+      "title_urdu": "رَبَّنَا أَنْتَ مَوْلَانَا",
+      "arabic_trn": "أَنْتَ مَوْلَانَا فَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ",
+      "urdu_trn": "تو ہمارا مولا ہے پس ہمیں کافر قوم پر مدد دے۔",
+      "english_trn": "You are our protector, so give us victory over the disbelieving people.",
+      "reference": "Al-Baqarah 2:286"
+    },
+    {
+      "sr": 34,
+      "title_eng": "Rabbana hab lana min ladunka",
+      "title_urdu": "رَبَّنَا هَبْ لَنَا مِن لَّدُنكَ",
+      "arabic_trn": "رَبَّنَا هَبْ لَنَا مِن لَّدُنكَ رَحْمَةً",
+      "urdu_trn": "اے ہمارے رب ہمیں اپنی طرف سے رحمت عطا فرما۔",
+      "english_trn": "Our Lord, grant us mercy from Yourself.",
+      "reference": "Al-Kahf 18:10"
+    },
+    {
+      "sr": 35,
+      "title_eng": "Rabbana hayyi lana",
+      "title_urdu": "رَبَّنَا هَيِّئْ لَنَا",
+      "arabic_trn": "رَبَّنَا هَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا",
+      "urdu_trn": "اے ہمارے رب ہمارے کام میں ہمارے لئے آسانی اور درستگی پیدا فرما۔",
+      "english_trn": "Our Lord, prepare for us from our affair right guidance.",
+      "reference": "Al-Kahf 18:10"
+    },
+    {
+      "sr": 36,
+      "title_eng": "Rabbana la taj'al",
+      "title_urdu": "رَبَّنَا لَا تَجْعَلْ",
+      "arabic_trn": "رَبَّنَا لَا تَجْعَلْنَا فِتْنَةً لِّلَّذِينَ كَفَرُوا",
+      "urdu_trn": "اے ہمارے رب ہمیں کافروں کے لئے آزمائش نہ بنا۔",
+      "english_trn": "Our Lord, do not make us a trial for the disbelievers.",
+      "reference": "Al-Mumtahanah 60:5"
+    },
+    {
+      "sr": 37,
+      "title_eng": "Rabbana ighfir lana wali ikhwanina",
+      "title_urdu": "رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا",
+      "arabic_trn": "رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا الَّذِينَ سَبَقُونَا بِالْإِيمَانِ",
+      "urdu_trn": "اے ہمارے رب ہمیں بخش دے اور ہمارے ان بھائیوں کو بھی جو ہم سے پہلے ایمان لائے۔",
+      "english_trn": "Our Lord, forgive us and our brothers who preceded us in faith.",
+      "reference": "Al-Hashr 59:10"
+    },
+    {
+      "sr": 38,
+      "title_eng": "Rabbana la taj'al fi qulubina",
+      "title_urdu": "رَبَّنَا لَا تَجْعَلْ فِي قُلُوبِنَا",
+      "arabic_trn": "رَبَّنَا لَا تَجْعَلْ فِي قُلُوبِنَا غِلًّا لِّلَّذِينَ آمَنُوا",
+      "urdu_trn": "اے ہمارے رب ہمارے دلوں میں ایمان والوں کے لئے کینہ نہ رکھ۔",
+      "english_trn": "Our Lord, place not in our hearts any resentment toward those who have believed.",
+      "reference": "Al-Hashr 59:10"
+    },
+    {
+      "sr": 39,
+      "title_eng": "Rabbana innaka ra'ufur rahim",
+      "title_urdu": "رَبَّنَا إِنَّكَ رَءُوفٌ رَّحِيمٌ",
+      "arabic_trn": "رَبَّنَا إِنَّكَ رَءُوفٌ رَّحِيمٌ",
+      "urdu_trn": "اے ہمارے رب بے شک تو بہت شفقت کرنے والا مہربان ہے۔",
+      "english_trn": "Our Lord, indeed You are Kind and Merciful.",
+      "reference": "Al-Hashr 59:10"
+    },
+    {
+      "sr": 40,
+      "title_eng": "Rabbana atina min ladunka rahma",
+      "title_urdu": "رَبَّنَا آتِنَا مِن لَّدُنكَ رَحْمَةً",
+      "arabic_trn": "رَبَّنَا آتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا",
+      "urdu_trn": "اے ہمارے رب ہمیں اپنی طرف سے رحمت عطا فرما اور ہمارے کام میں ہمارے لئے آسانی پیدا فرما۔",
+      "english_trn": "Our Lord, grant us mercy from Yourself and prepare for us from our affair right guidance.",
+      "reference": "Al-Kahf 18:10"
+    }
+]

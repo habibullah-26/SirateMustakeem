@@ -2,7 +2,6 @@ package com.habib.siratemustakeem
 
 import android.app.Application
 import android.content.Context
-import com.habib.siratemustakeem.MyApplication
 
 class MyApplication : Application() {
     override fun onCreate() {

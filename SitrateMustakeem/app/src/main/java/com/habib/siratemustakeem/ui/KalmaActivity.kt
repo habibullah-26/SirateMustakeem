@@ -10,7 +10,7 @@ import com.habib.siratemustakeem.R
 import com.habib.siratemustakeem.adapters.MyRecyclerViewAdapter
 import com.habib.siratemustakeem.databinding.ActivityMainNewBinding
 import com.habib.siratemustakeem.models.Duwa
-import com.habib.siratemustakeem.utils.Util
+import com.habib.siratemustakeem.utils.JsonUtils
 import java.util.*
 
 class KalmaActivity : AppCompatActivity(), MyRecyclerViewAdapter.ItemClickListener {
@@ -20,13 +20,15 @@ class KalmaActivity : AppCompatActivity(), MyRecyclerViewAdapter.ItemClickListen
     var duwasList: ArrayList<Duwa> = ArrayList<Duwa>()
     var mAdapter: MyRecyclerViewAdapter? = null
     var title:String = ""
+    val fileName_kalmat: String = "kalmat.json"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main_new)
         title = intent.extras!!.getString("title")!!
         binding?.toplayout?.tvTitle?.text = title
         setAdapters()
-        duwasList = Util.getKalmaListFromAssets()
+        val list = JsonUtils.getListDuwa(this, fileName_kalmat)
+        duwasList = ArrayList(list)
         mAdapter?.updateAdapter(duwasList)
         binding?.toplayout?.backImage?.setOnClickListener{
             finish()

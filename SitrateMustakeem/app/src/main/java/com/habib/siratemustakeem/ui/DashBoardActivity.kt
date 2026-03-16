@@ -5,29 +5,21 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-//import com.google.android.play.core.appupdate.AppUpdateManagerFactory
-//import com.google.android.play.core.install.model.AppUpdateType
-//import com.google.android.play.core.install.model.UpdateAvailability
 import com.habib.siratemustakeem.R
 import com.habib.siratemustakeem.databinding.ActivityDashboardBinding
 import com.habib.siratemustakeem.models.Duwa
-import com.habib.siratemustakeem.utils.Util
-//import java.text.SimpleDateFormat
-//import java.util.Calendar
-//import java.util.Date
-//import java.util.Locale
+import com.habib.siratemustakeem.utils.JsonUtils
+import java.util.ArrayList
 
 class DashBoardActivity : AppCompatActivity() {
     var binding: ActivityDashboardBinding? = null
     var duwaItem: Duwa? = null
     val MY_REQUEST_CODE = 200
+    val fileName_duwequnoot: String = "duwequnoot.json"
+    val fileName_ayatkursi: String = "ayatkursi.json"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_dashboard)
-//        val currentTime: Date = Calendar.getInstance().getTime()
-//        val sdf: SimpleDateFormat = SimpleDateFormat("HH:mm:ss", Locale.getDefault())
-//        val currentDateandTime: String = sdf.format(Date())
-//        binding?.tvDateTime?.text = currentDateandTime;
         binding?.cardView1?.setOnClickListener{
             val mainIntent = Intent(this, MainActivity::class.java)
             mainIntent.putExtra("title",getString(R.string.title_duwain))
@@ -40,7 +32,8 @@ class DashBoardActivity : AppCompatActivity() {
         }
 
         binding?.cardView3?.setOnClickListener {
-            val duwasList = Util.getAytualKursiFromAssets()
+            val list = JsonUtils.getListDuwa(this, fileName_ayatkursi)
+            val duwasList = ArrayList(list)
             if (duwasList.size > 0) {
                 val intent = Intent(this, DuwaDetail::class.java)
                 intent.putExtra("data", duwasList.get(0))
@@ -49,7 +42,8 @@ class DashBoardActivity : AppCompatActivity() {
             }
         }
         binding?.cardView4?.setOnClickListener {
-            val duwasList = Util.getQunootFromAssets()
+            val list = JsonUtils.getListDuwa(this, fileName_duwequnoot)
+            val duwasList = ArrayList(list)
             if (duwasList.size > 0) {
                 val intent = Intent(this, DuwaDetail::class.java)
                 intent.putExtra("data", duwasList.get(0))

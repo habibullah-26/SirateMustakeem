@@ -4,16 +4,14 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.gson.Gson
 import com.habib.siratemustakeem.R
 import com.habib.siratemustakeem.adapters.MyRecyclerViewAdapter
 import com.habib.siratemustakeem.databinding.ActivityMainNewBinding
 import com.habib.siratemustakeem.models.Duwa
-import com.habib.siratemustakeem.utils.Util
+import com.habib.siratemustakeem.utils.JsonUtils
 import java.util.*
 
 class MainActivity : AppCompatActivity(), MyRecyclerViewAdapter.ItemClickListener {
@@ -23,6 +21,8 @@ class MainActivity : AppCompatActivity(), MyRecyclerViewAdapter.ItemClickListene
     var duwasList: ArrayList<Duwa> = ArrayList<Duwa>()
     var mAdapter: MyRecyclerViewAdapter? = null
     var title:String = ""
+    private val gson = Gson()
+    val fileName: String = "duwain.json"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main_new)
@@ -30,7 +30,8 @@ class MainActivity : AppCompatActivity(), MyRecyclerViewAdapter.ItemClickListene
         title = intent.extras?.getString("title")!!
         binding?.toplayout?.tvTitle?.text = title
         setAdapters()
-        duwasList = Util.readExcelFileFromAssets()
+        val list = JsonUtils.getListDuwa(this, fileName)
+        duwasList = ArrayList(list)
         mAdapter?.updateAdapter(duwasList)
         binding?.toplayout?.backImage?.setOnClickListener{
             finish()

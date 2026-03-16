@@ -1,0 +1,122 @@
+[
+  {
+    "sno": 1,
+    "title_eng": "Dua Before Meals",
+    "title_urdu": "کھانے سے پہلے کی دعا",
+    "arabic_trn": "بِسْمِ ٱللّٰهِ وَعَلَىٰ بَرَكَةِ ٱللّٰهِ",
+    "urdu_trn": "میں نے الله کے نام کے ساتھ اور الله کی برکت پر کھانا شروع کیا۔",
+    "english_trn": "In the name of Allah and with the blessings of Allah I begin (eating)"
+  },
+  {
+    "sno": 2,
+    "title_eng": "Dua After Eating",
+    "title_urdu": "کھانے کے بعد کی دعا",
+    "arabic_trn": "اَلْحَمْدُ لِلّٰهِ الَّذِي أَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مِنَ الْمُسْلِمِينَ",
+    "urdu_trn": "اللہ عزوجل کا شکر ہے جس نے ہمیں کھلایا پلایا اور مسلمانوں میں سے بنایا۔",
+    "english_trn": "Thanks to Allah Azzawajal who fed us and made us among Muslims"
+  },
+  {
+    "sno": 3,
+    "title_eng": "Dua Before Sleeping",
+    "title_urdu": "سوتے وقت کی دعا",
+    "arabic_trn": "اَللّٰهُمَّ بِاسْمِكَ أَمُوتُ وَأَحْيَا",
+    "urdu_trn": "الٰہی عزوجل میں تیرے نام پر مرتا ہوں اور جیتا ہوں۔",
+    "english_trn": "O Allah (Almighty) I live and die in your name."
+  },
+  {
+    "sno": 4,
+    "title_eng": "Dua When Waking Up from Sleep",
+    "title_urdu": "نیند سے بیدار ہونے کی دعا",
+    "arabic_trn": "اَلْحَمْدُ لِلّٰهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+    "urdu_trn": "تمام تعریفیں اللہ عزوجل کے لئے جس نے ہمیں موت (نیند) کے بعد حیات (بیداری) عطا فرمائی اور ہمیں اسی طرف لوٹنا ہے۔",
+    "english_trn": "All praise to Allah who granted us life after death (sleep) and to Him we return."
+  },
+  {
+    "sno": 5,
+    "title_eng": "Dua When Entering The Home",
+    "title_urdu": "گھر میں داخل ہوتے وقت کی دعا",
+    "arabic_trn": "اَللّٰهُمَّ إِنِّي أَسْأَلُكَ خَيْرَ الْمَوْلِجِ وَخَيْرَ الْمَخْرَجِ",
+    "urdu_trn": "اے اللہ عزّ و جلّ! میں تجھ سے داخل ہونے اور نکلنے کی بھلائی طلب کرتا ہوں۔",
+    "english_trn": "O Allah! I ask You for the goodness of entering and exiting."
+  },
+  {
+    "sno": 6,
+    "title_eng": "Dua When Leaving The House",
+    "title_urdu": "گھر سے نکلتے وقت کی دعا",
+    "arabic_trn": "بِسْمِ ٱللّٰهِ تَوَكَّلْتُ عَلَى ٱللّٰهِ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِٱللّٰهِ",
+    "urdu_trn": "اللہ کے نام سے (گھر سے نکلتا ہوں)۔ میں نے اللہ پر بھروسہ کیا۔ اللہ کے بغیر نہ گناہوں سے بچنے کی طاقت ہے اور نہ نیکیاں کرنے کی قوت۔",
+    "english_trn": "In the name of Allah, I trust in Allah. There is no power nor strength except with Allah."
+  },
+  {
+    "sno": 7,
+    "title_eng": "Dua When Entering the Mosque",
+    "title_urdu": "مسجد میں داخل ہونے کی دعا",
+    "arabic_trn": "اَللّٰهُمَّ ٱفْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+    "urdu_trn": "اے اللہ! میرے لیے رحمت کے دروازے کھول دے۔",
+    "english_trn": "Oh Allah! Open the doors of Your mercy for me."
+  },
+  {
+    "sno": 8,
+    "title_eng": "Dua When Leaving the Mosque",
+    "title_urdu": "مسجد سے نکلنے کی دعا",
+    "arabic_trn": "اَللّٰهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ وَرَحْمَتِكَ",
+    "urdu_trn": "اے اللہ! میں تجھ سے تیرا فضل اور تیری رحمت مانگتا ہوں۔",
+    "english_trn": "Oh Allah! I ask You for Your favour and mercy."
+  },
+  {
+    "sno": 9,
+    "title_eng": "Dua for Traveling & Journey",
+    "title_urdu": "سفر اور سواری کی دعا",
+    "arabic_trn": "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَىٰ رَبِّنَا لَمُنْقَلِبُونَ",
+    "urdu_trn": "پاک ہے وہ ذات جس نے ہمارے لیے اس سواری کو مسخر کیا اور ہم اس کے قابو میں نہ تھے اور ہم اپنے رب کی طرف لوٹنے والے ہیں۔",
+    "english_trn": "Glory be to Him who has subjected this to us, and we could never have it otherwise. And surely to our Lord we will return."
+  },
+  {
+    "sno": 10,
+    "title_eng": "Dua When Entering the Market",
+    "title_urdu": "بازار میں داخل ہوتے وقت کی دعا",
+    "arabic_trn": "لَا إِلٰهَ إِلَّا ٱللّٰهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ ٱلْمُلْكُ وَلَهُ ٱلْحَمْدُ، يُحْيِي وَيُمِيتُ وَهُوَ حَيٌّ لَا يَمُوتُ، بِيَدِهِ ٱلْخَيْرُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+    "urdu_trn": "اللہ کے سوا کوئی معبود نہیں، وہ یکتا ہے، اس کا کوئی شریک نہیں، اسی کی بادشاہت ہے اور اسی کے لیے حمد ہے، وہی زندہ کرتا ہے اور مارتا ہے، وہ ہمیشہ زندہ ہے، اس کے ہاتھ میں بھلائی ہے اور وہ ہر چیز پر قادر ہے۔",
+    "english_trn": "There is no deity except Allah alone with no partner. His is the dominion and His is the praise. He gives life and causes death and He is living and does not die. In His hand is all good and He has power over everything."
+  },
+  {
+    "sno": 11,
+    "title_eng": "Dua When Meeting Another Muslim",
+    "title_urdu": "ملاقات کے وقت کی دعا",
+    "arabic_trn": "اَلسَّلَامُ عَلَيْكُمْ",
+    "urdu_trn": "تم پر سلامتی ہو۔",
+    "english_trn": "Peace be upon you."
+  },
+  {
+    "sno": 12,
+    "title_eng": "Dua upon Sneezing",
+    "title_urdu": "چھینک آنے کے وقت کی دعا",
+    "arabic_trn": "اَلْحَمْدُ لِلّٰهِ",
+    "urdu_trn": "تمام تعریفیں اللہ کے لیے ہیں۔",
+    "english_trn": "All praise is due to Allah."
+  },
+  {
+    "sno": 13,
+    "title_eng": "Dua When Hearing Someone Sneeze",
+    "title_urdu": "چھینک آنے پر الحمدللہ کہنے والے کے لیے دعا",
+    "arabic_trn": "يَرْحَمُكَ اللّٰهُ",
+    "urdu_trn": "اللہ تم پر رحم کرے۔",
+    "english_trn": "May Allah have mercy on you."
+  },
+  {
+    "sno": 14,
+    "title_eng": "Dua When Facing Trouble or Difficulties",
+    "title_urdu": "مصیبت و پریشانی کے وقت کی دعا",
+    "arabic_trn": "إِنَّا لِلّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+    "urdu_trn": "یقیناً ہم اللہ ہی کے ہیں اور اسی کی طرف لوٹ کر جانے والے ہیں۔",
+    "english_trn": "Indeed we belong to Allah and to Him we shall return."
+  },
+  {
+    "sno": 15,
+    "title_eng": "Dua For Relief From All Hardships",
+    "title_urdu": "مصیبت کے وقت ورد",
+    "arabic_trn": "لَا إِلٰهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+    "urdu_trn": "تیرے سوا کوئی معبود نہیں، تو پاک ہے، بے شک میں ہی ظالموں میں سے تھا۔",
+    "english_trn": "None has the right to be worshipped except You. Glory be to You, indeed I was among the wrongdoers."
+  }
+]
