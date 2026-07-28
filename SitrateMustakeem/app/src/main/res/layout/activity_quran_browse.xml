@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_grey"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toplayout"
+            layout="@layout/top_bar_layout"
+            app:statusBarPadding="@{true}" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tab_pill_container_bg"
+            android:layout_margin="@dimen/_12sdp"
+            android:elevation="@dimen/_2sdp"
+            android:orientation="horizontal"
+            android:padding="@dimen/_4sdp">
+
+            <TextView
+                android:id="@+id/tabSurah"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="1"
+                android:background="@drawable/tab_pill_active_bg"
+                android:fontFamily="@font/nastaleeq_regular"
+                android:gravity="center"
+                android:text="@string/tab_surah"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20ssp" />
+
+            <TextView
+                android:id="@+id/tabPara"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/nastaleeq_regular"
+                android:gravity="center"
+                android:text="@string/tab_para"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="@dimen/_20ssp"/>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/_6sdp" />
+
+<!--            <ProgressBar-->
+<!--                android:id="@+id/progressBar"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:visibility="gone" />-->
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/progressBar"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                app:indicatorSize="60dp"
+                app:trackThickness="5dp"
+                app:indicatorColor="@color/purple_700"
+                app:trackColor="@color/purple_200"
+                android:indeterminate="true"/>
+
+<!--            <com.airbnb.lottie.LottieAnimationView-->
+<!--                android:id="@+id/progressBar"-->
+<!--                android:layout_width="120dp"-->
+<!--                android:layout_height="120dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:visibility="gone"-->
+<!--                app:lottie_autoPlay="true"-->
+<!--                app:lottie_loop="true"-->
+<!--                app:lottie_rawRes="@raw/quran_loading" />-->
+        </FrameLayout>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/headerBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/quran_surah_header_bg"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/_16sdp">
+
+        <TextView
+            android:id="@+id/tvSegHeaderTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/saleem_quran_font"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_21ssp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="#40FFFFFF" />
+
+        <TextView
+            android:id="@+id/tvSegHeaderMeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:fontFamily="@font/nastaleeq_regular"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp" />
+
+        <TextView
+            android:id="@+id/tvSegParaTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/header_tag_pill_bg"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingTop="@dimen/_3sdp"
+            android:paddingBottom="@dimen/_3sdp"
+            android:fontFamily="@font/nastaleeq_regular"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_11ssp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvBismillah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/bismillah_box_bg"
+        android:fontFamily="@font/saleem_quran_font"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/black"
+        android:textDirection="rtl"
+        android:textSize="@dimen/_20ssp"
+        android:visibility="gone" />
+
+</LinearLayout>

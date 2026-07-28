@@ -11,4 +11,11 @@
     <color name="more_light_grey">#BCB9B9</color>
     <color name="light_grey">#ECEAEA</color>
     <color name="light_blue">#036CD5</color>
+
+
+    <!-- Quran Surah/Para list badge colors (cycled by row position) -->
+    <color name="quran_badge_purple">#9575CD</color>
+    <color name="quran_badge_green">#4CAF50</color>
+    <color name="quran_badge_blue">#42A5F5</color>
+    <color name="quran_badge_pink">#EC407A</color>
 </resources>

@@ -57,6 +57,12 @@ class DashBoardActivity : AppCompatActivity() {
             mainIntent.putExtra("title",getString(R.string.title_duwain_rabna))
             startActivity(mainIntent)
         }
+
+        binding?.cardView6?.setOnClickListener {
+            val mainIntent = Intent(this, QuranHomeActivity::class.java)
+            mainIntent.putExtra("title",getString(R.string.title_duwain_rabna))
+            startActivity(mainIntent)
+        }
         binding?.contactUsBtn?.setOnClickListener {
                 val intent = Intent(this, ContactUsActivity::class.java)
                 startActivity(intent)
