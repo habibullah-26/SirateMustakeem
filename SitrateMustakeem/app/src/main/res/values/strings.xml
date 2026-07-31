@@ -8,22 +8,59 @@
     <string name="title_duwain_rabna">ربنادعائیں</string>
     <string name="contact_us_mesage">All information provided by us on this Application is for general information purposes only. All information is collected from different sources and provided in good faith. In case of any error, accuracy, or completeness issue, Please contact us at the following email. </string>
 
+    <!-- Contact Us screen redesign -->
+    <string name="contact_us_title_urdu">ہم سے رابطہ کریں</string>
+    <string name="disclaimer_section_title">اہم وضاحت / Disclaimer</string>
+    <string name="quran_disclaimer_title">قرآن کریم سے متعلق وضاحت\nAbout the Quran content</string>
+    <string name="quran_disclaimer_message">اس ایپ میں قرآن کریم کی تلاوت، ترجمہ اور آڈیو ایک تھرڈ پارٹی (بیرونی) ذریعہ سے حاصل کیے گئے ہیں۔ ہم نے درستگی کو یقینی بنانے کی پوری کوشش کی ہے، تاہم کسی بھی غلطی یا کمی کا امکان رد نہیں کیا جا سکتا۔ براہ کرم تلاوت اور ترجمہ کی تصدیق مستند مطبوعہ قرآن مجید سے کر لیں، اور اگر کوئی غلطی نظر آئے تو نیچے دیے گئے ای میل پر ضرور مطلع کریں تاکہ اسے درست کیا جا سکے۔\n\nThe Quran recitation, translation, and audio in this app are sourced from a third-party provider. While every effort has been made to ensure accuracy, we cannot guarantee it is completely free of errors. Please cross-check with an authentic printed Mushaf, and if you notice any mistake, kindly report it to the email below so it can be corrected.</string>
+    <string name="contact_email_label">ای میل / Email</string>
+    <string name="build_app_title">اپنی ایپ بنوانا چاہتے ہیں؟\nWant an app built for you?</string>
+    <string name="build_app_message">اگر آپ اسی طرح کی ایپ یا کوئی اور موبائل ایپلیکیشن بنوانا چاہتے ہیں تو ہم سے رابطہ کریں۔\nIf you\'d like an app like this — or any other mobile application — built for you, feel free to get in touch.</string>
+    <string name="btn_email_us">ای میل کریں / Email Us</string>
+
     <!-- Quran recitation feature -->
     <string name="title_quran_recite">تلاوت قرآن</string>
     <string name="title_tilawat">تلاوت</string>
     <string name="title_tafseer">ترجمہ</string>
     <string name="tafseer_subtitle">نیچے دیئے گئے مترجمین میں سے کسی ایک کا ترجمہ آیات کے ساتھ دکھایا جائے گا</string>
-    <string name="title_by_surah">سورتیں</string>
-    <string name="title_by_para">پارے</string>
-    <string name="tab_surah">سورتیں</string>
-    <string name="tab_para">پارے</string>
+    <string name="title_by_surah">سورہ کے مطابق</string>
+    <string name="title_by_para">پارہ کے مطابق</string>
+    <string name="tab_surah">سورۃ</string>
+    <string name="tab_para">پارہ</string>
     <string name="label_meccan">مکیہ</string>
     <string name="label_medinan">مدنیہ</string>
-    <string name="label_ayahs_count">آیات</string>
+    <string name="label_ayahs_count">آیاتہا</string>
     <string name="label_ruku">رکوع</string>
     <string name="label_ruku_to">تا</string>
     <string name="para_label_prefix">پارہ</string>
     <string name="quran_load_error">قرآن ڈیٹا لوڈ نہیں ہو سکا۔ براہ کرم انٹرنیٹ کنکشن چیک کریں۔</string>
     <string name="audio_play_error">آڈیو نہیں چل سکی</string>
     <string name="play_recitation">Play recitation</string>
+
+    <!-- Dashboard: search -->
+    <string name="title_search">تلاش کریں</string>
+    <string name="search_hint">سورہ کا نام لکھیں…</string>
+    <string name="search_placeholder_note">سورہ تلاش کرنے کے لیے اوپر لکھیں۔ AI اسسٹنٹ جلد شامل کیا جائے گا۔</string>
+
+    <!-- Dashboard: prayer times -->
+    <string name="title_prayer_times">نماز کے اوقات</string>
+    <string name="next_prayer_prefix">اگلی نماز:</string>
+
+    <!-- Location permission dialog -->
+    <string name="location_dialog_title">مقام کی اجازت\nLocation Permission</string>
+    <string name="location_dialog_message">درست نماز کے اوقات آپ کے شہر کے مطابق دکھانے کے لیے ہمیں آپ کا مقام درکار ہے۔ اگر اجازت نہ دی جائے تو نماز کے اوقات لاہور، پاکستان کے مطابق دکھائے جائیں گے، جو آپ کے شہر سے مختلف ہو سکتے ہیں۔\n\nWe need your location to show accurate prayer times for your city. If you don\'t allow it, prayer times will default to Lahore, Pakistan, which may be different from your actual city.</string>
+    <string name="location_dialog_allow">اجازت دیں / Allow</string>
+    <string name="location_dialog_not_now">ابھی نہیں / Not now</string>
+    <string name="location_denied_notice">مقام کی اجازت نہیں دی گئی۔ نماز کے اوقات لاہور، پاکستان کے مطابق دکھائے جا رہے ہیں۔\nLocation permission not granted. Prayer times are showing for Lahore, Pakistan by default.</string>
+    <string name="location_default_suffix">پہلے سے طے شدہ / default</string>
+    <string name="prayer_fajr">فجر</string>
+    <string name="prayer_sunrise">طلوع آفتاب</string>
+    <string name="prayer_dhuhr">ظہر</string>
+    <string name="prayer_asr">عصر</string>
+    <string name="prayer_maghrib">مغرب</string>
+    <string name="prayer_isha">عشاء</string>
+
+    <!-- Dashboard: hadith feed -->
+    <string name="title_feed">احادیث</string>
+    <string name="title_feed_card">احادیث فیڈ</string>
 </resources>
