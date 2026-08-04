@@ -36,18 +36,47 @@ class DashBoardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_dashboard)
 
+        //Quran majeed
         binding?.cardView1?.setOnClickListener{
+            startActivity(Intent(this, QuranHomeActivity::class.java))
+        }
+        //Rabna Duwain
+        binding?.cardView2?.setOnClickListener{
+            val mainIntent = Intent(this, RabnaActivity::class.java)
+            mainIntent.putExtra("title",getString(R.string.title_duwain_rabna))
+            startActivity(mainIntent)
+        }
+
+        //Adith Feed
+        binding?.cardView3?.setOnClickListener {
+            startActivity(Intent(this, FeedActivity::class.java))
+        }
+
+        //Duwain
+        binding?.cardView4?.setOnClickListener {
+//            val list = JsonUtils.getListDuwa(this, fileName_duwequnoot)
+//            val duwasList = ArrayList(list)
+//            if (duwasList.size > 0) {
+//                val intent = Intent(this, DuwaDetail::class.java)
+//                intent.putExtra("data", duwasList.get(0))
+//                intent.putExtra("title",getString(R.string.title_qua_qunoot))
+//                startActivity(intent)
+//            }
             val mainIntent = Intent(this, MainActivity::class.java)
             mainIntent.putExtra("title",getString(R.string.title_duwain))
             startActivity(mainIntent)
         }
-        binding?.cardView2?.setOnClickListener{
+
+//Kalamats
+        binding?.cardView5?.setOnClickListener {
             val mainIntent = Intent(this, KalmaActivity::class.java)
             mainIntent.putExtra("title",getString(R.string.title_kalimat))
             startActivity(mainIntent)
         }
 
-        binding?.cardView3?.setOnClickListener {
+//Ayat Kursi
+        binding?.cardView6?.setOnClickListener {
+//            startActivity(Intent(this, QuranHomeActivity::class.java))
             val list = JsonUtils.getListDuwa(this, fileName_ayatkursi)
             val duwasList = ArrayList(list)
             if (duwasList.size > 0) {
@@ -57,7 +86,10 @@ class DashBoardActivity : AppCompatActivity() {
                 startActivity(intent)
             }
         }
-        binding?.cardView4?.setOnClickListener {
+
+        //Due Qonoot
+        binding?.cardView7?.setOnClickListener {
+//            startActivity(Intent(this, FeedActivity::class.java))
             val list = JsonUtils.getListDuwa(this, fileName_duwequnoot)
             val duwasList = ArrayList(list)
             if (duwasList.size > 0) {
@@ -68,22 +100,9 @@ class DashBoardActivity : AppCompatActivity() {
             }
         }
 
-        binding?.cardView5?.setOnClickListener {
-            val mainIntent = Intent(this, RabnaActivity::class.java)
-            mainIntent.putExtra("title",getString(R.string.title_duwain_rabna))
-            startActivity(mainIntent)
-        }
         binding?.contactUsBtn?.setOnClickListener {
-                val intent = Intent(this, ContactUsActivity::class.java)
-                startActivity(intent)
-            }
-
-        binding?.cardView6?.setOnClickListener {
-            startActivity(Intent(this, QuranHomeActivity::class.java))
-        }
-
-        binding?.cardView7?.setOnClickListener {
-            startActivity(Intent(this, FeedActivity::class.java))
+            val intent = Intent(this, ContactUsActivity::class.java)
+            startActivity(intent)
         }
 
         binding?.btnSearch?.setOnClickListener {
@@ -178,10 +197,11 @@ class DashBoardActivity : AppCompatActivity() {
         lifecycleScope.launch {
             try {
                 val schedule = PrayerScheduleProvider.getTodayTimes(this@DashBoardActivity)
-                val next = PrayerScheduleProvider.getNextPrayer(schedule.times)
-                binding?.tvNextPrayerLabel?.text = "${getString(R.string.next_prayer_prefix)} ${next.nameUrdu}"
-                binding?.tvNextPrayerCountdown?.text = next.countdown
-                binding?.tvNextPrayerTime?.text = next.timeFormatted
+                val current = PrayerScheduleProvider.getCurrentAndNextPrayer(schedule.times)
+                binding?.tvNextPrayerLabel?.text = "${getString(R.string.current_prayer_prefix)} ${current.currentNameUrdu}"
+                binding?.tvNextPrayerCountdown?.text =
+                    "${getString(R.string.next_prayer_prefix)} ${current.nextNameUrdu} — ${current.nextCountdown}"
+                binding?.tvNextPrayerTime?.text = current.currentTimeFormatted
 
                 val locationSuffix = if (schedule.location.source == LocationSource.DEFAULT_FALLBACK) {
                     " (${getString(R.string.location_default_suffix)})"

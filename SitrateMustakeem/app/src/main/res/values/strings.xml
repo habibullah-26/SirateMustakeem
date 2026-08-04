@@ -23,13 +23,13 @@
     <string name="title_tilawat">تلاوت</string>
     <string name="title_tafseer">ترجمہ</string>
     <string name="tafseer_subtitle">نیچے دیئے گئے مترجمین میں سے کسی ایک کا ترجمہ آیات کے ساتھ دکھایا جائے گا</string>
-    <string name="title_by_surah">سورہ کے مطابق</string>
-    <string name="title_by_para">پارہ کے مطابق</string>
-    <string name="tab_surah">سورۃ</string>
-    <string name="tab_para">پارہ</string>
+    <string name="title_by_surah">سورتیں</string>
+    <string name="title_by_para">پارے</string>
+    <string name="tab_surah">سورتیں</string>
+    <string name="tab_para">پارے</string>
     <string name="label_meccan">مکیہ</string>
     <string name="label_medinan">مدنیہ</string>
-    <string name="label_ayahs_count">آیاتہا</string>
+    <string name="label_ayahs_count">آیات</string>
     <string name="label_ruku">رکوع</string>
     <string name="label_ruku_to">تا</string>
     <string name="para_label_prefix">پارہ</string>
@@ -44,6 +44,7 @@
 
     <!-- Dashboard: prayer times -->
     <string name="title_prayer_times">نماز کے اوقات</string>
+    <string name="current_prayer_prefix">موجودہ نماز:</string>
     <string name="next_prayer_prefix">اگلی نماز:</string>
 
     <!-- Location permission dialog -->
@@ -63,4 +64,6 @@
     <!-- Dashboard: hadith feed -->
     <string name="title_feed">احادیث</string>
     <string name="title_feed_card">احادیث فیڈ</string>
+    <string name="share_hadith">Share hadith</string>
+    <string name="hadith_number_prefix">حدیث نمبر</string>
 </resources>

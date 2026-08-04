@@ -35,12 +35,17 @@
                 android:padding="@dimen/_8sdp"
                 android:clipToPadding="false" />
 
-            <ProgressBar
+            <com.google.android.material.progressindicator.CircularProgressIndicator
                 android:id="@+id/progressBar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:visibility="gone" />
+                android:visibility="gone"
+                app:indicatorSize="60dp"
+                app:trackThickness="5dp"
+                app:indicatorColor="@color/purple_700"
+                app:trackColor="@color/purple_200"
+                android:indeterminate="true"/>
         </FrameLayout>
     </LinearLayout>
 </layout>

@@ -9,6 +9,13 @@ data class NextPrayerInfo(
     val countdown: String
 )
 
+data class CurrentPrayerInfo(
+    val currentNameUrdu: String,
+    val currentTimeFormatted: String,
+    val nextNameUrdu: String,
+    val nextCountdown: String
+)
+
 data class TodayScheduleResult(
     val times: PrayerTimesResult,
     val location: ResolvedLocation
@@ -53,8 +60,13 @@ object PrayerScheduleProvider {
         return NextPrayerInfo(name, PrayerTimeCalculator.formatTime(if (time >= 24.0) time - 24.0 else time), countdown)
     }
 
-    /** Returns the current prayer if the current time falls within its range. */
-    fun getCurrentPrayer(times: PrayerTimesResult): NextPrayerInfo? {
+    /**
+     * Picks the *current* prayer — the most recent one whose time has already started (i.e. the
+     * waqt we're currently in) — along with the next prayer's name and countdown as secondary
+     * info. Before today's Fajr, "current" is treated as last night's Isha (its waqt extends
+     * until Fajr). After today's Isha, "next" wraps to tomorrow's Fajr.
+     */
+    fun getCurrentAndNextPrayer(times: PrayerTimesResult): CurrentPrayerInfo {
         val now = Calendar.getInstance()
         val nowDecimal = now.get(Calendar.HOUR_OF_DAY) + now.get(Calendar.MINUTE) / 60.0
 
@@ -66,18 +78,41 @@ object PrayerScheduleProvider {
             "عشاء" to times.isha
         )
 
-        for (i in schedule.indices) {
-            val current = schedule[i]
-            val next = schedule.getOrNull(i + 1) ?: (schedule.first().first to schedule.first().second + 24.0)
+        val currentIndex = schedule.indexOfLast { it.second <= nowDecimal }
+        val current: Pair<String, Double>
+        val next: Pair<String, Double>
+        var nextIsTomorrow = false
 
-            if (nowDecimal in current.second..next.second) {
-                return NextPrayerInfo(
-                    nameUrdu = current.first,
-                    timeFormatted = String.format("%02d:%02d", current.second.toInt(), ((current.second % 1) * 60).toInt()),
-                    countdown = "جاری ہے"
-                )
+        when {
+            currentIndex == -1 -> {
+                // Before today's Fajr — still within last night's Isha waqt.
+                current = schedule.last()
+                next = schedule.first()
+            }
+            currentIndex == schedule.lastIndex -> {
+                // Current = Isha; the next prayer is tomorrow's Fajr.
+                current = schedule[currentIndex]
+                next = schedule.first()
+                nextIsTomorrow = true
+            }
+            else -> {
+                current = schedule[currentIndex]
+                next = schedule[currentIndex + 1]
             }
         }
-        return null
+
+        val nextAbsolute = if (nextIsTomorrow) next.second + 24.0 else next.second
+        val diffHours = (nextAbsolute - nowDecimal).coerceAtLeast(0.0)
+        val totalMinutes = (diffHours * 60).toInt()
+        val h = totalMinutes / 60
+        val m = totalMinutes % 60
+        val countdown = if (h > 0) "$h گھنٹے $m منٹ باقی" else "$m منٹ باقی"
+
+        return CurrentPrayerInfo(
+            currentNameUrdu = current.first,
+            currentTimeFormatted = PrayerTimeCalculator.formatTime(current.second),
+            nextNameUrdu = next.first,
+            nextCountdown = countdown
+        )
     }
 }
